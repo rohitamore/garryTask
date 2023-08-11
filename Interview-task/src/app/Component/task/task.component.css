@@ -1,0 +1,66 @@
+.sm{
+    height: 40px !important;
+    width: 120px !important;
+}
+.hei{
+    height: 200px !important;
+}
+.mt{
+    margin-top: 200px !important;
+}
+.nameIcon {
+    border-radius: 3px;
+    margin-right: 10px;
+    border-radius: 6px !important;
+}
+.sm1{
+    height: 20px !important;
+    width: 30px !important;
+    border-radius: 50% !important;
+    border: 1px solid rgb(48, 47, 47)!important;
+}
+ .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+ }
+ .sectionheight {
+    border: 1px solid ;
+ }
+#S-Bar {
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff; 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 90%; 
+    bottom: 30px;
+  }
+  #S-Bar.show {
+    visibility: visible; 
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
